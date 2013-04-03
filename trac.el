@@ -1,6 +1,6 @@
 (require 'json-rpc)
 
-(defcustom *trac-url* "")
+(defcustom *trac-url* "" "")
 
 (defun trac--request (url method func args)
   (json-rpc:call-method url method func args))
