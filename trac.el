@@ -26,3 +26,5 @@
               (trac-with-ticket url id (summary) summary))
             ids)
     ))
+
+(provide 'trac)
